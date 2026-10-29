@@ -31,3 +31,7 @@ Compared with linear regression and logistic regression, the MLP offers greater 
 ### Conclusion
 
 My fourth iteration has encouraged me to treat query selection as a balance between learning the objective, exploiting promising regions and exploring uncertainty. My next step is to compare the hybrid strategy against simpler baselines across repeated runs, using actual objective evaluations to determine whether neural-network predictions and gradient-guided search improve convergence.
+
+
+https://imperial-capstone-r3.emeritus.org/dashboard
+https://classroom.emeritus.org/login?needs_cookies=1
