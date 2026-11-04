@@ -2,6 +2,34 @@
 
 ## 1. Project Overview
 
+│black-box-capstone
+|
+├── initial_data/
+│   ├── function_1/
+│   ├── function_1/
+│   └── etc.
+│
+├── notebooks/
+│   └── bbo.ipynb
+│
+├── src/
+│   ├── gaussian_process.py
+│   ├── neural_network.py
+│   ├── svm_model.py
+│   ├── acquisition.py
+│   └── optimisation.py
+│
+├── history/
+│   ├── function_1_history.csv 
+│   ├── function_2_history.csv 
+│   ├── function_3_history.csv
+│   └── etc.
+│
+├── results/
+│
+├── requirements.txt
+└── README.md
+
 This project explores **black-box optimisation (BBO)**, where the objective function is unknown and must be optimised through queries. Each query provides an input configuration and returns an observed objective value, allowing a model to learn about the function without knowing its internal structure.
 
 The goal is to identify high-performing input configurations while minimising the number of evaluations required. This reflects real-world machine learning problems where evaluations can be expensive, including hyperparameter tuning, experimental design, engineering optimisation, and scientific experimentation.
